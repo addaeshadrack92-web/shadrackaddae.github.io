@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Interactive Website</title>
+    <style>
+         body {
+             background-color: #f0f8ff;
+             font-family: Arial,
+sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+             color: #ff4500;
+        
+         }
+         p {
+             color: #333333;
+             font-size: 18px;
+
+         }
+         button {
+              margin: 10px;
+              padding: 10px 20px;
+              font-size: 16px;
+             
+            }
+         </style>
+      </head>
+      <body>
+          <h1>Hello, World!</h1>
+          <p>This is My interactive web page.</p>
+
+           <p>visit <a href="about.html">About Me</a>
+       target="_blank">Google</a></p>
+      <img
+     src="https://via.placeholder.com/200"
+     alt="sample image">
+
+     
+     <p id="message">This text will change when you click a button.</p>
+ 
+      <button onclick="say hello()">click me!</button>
+      <button
+    onclick="change text()">change  text</button
+      <button
+    onclick="change color()">Background</button>
+
+    <p><a href="about.html">About Me</a>
+
+   <script>
+         function say hello() {
+               alert("Hello! You clicked the button!");
+            }
+
+             function change text() {
+     document. get Element By ID("message").inner Text="The text has changed!";
+          }
+        
+          function change color() {
+
+     document. body. style. background color="#ffeb3b";
+     
+               </script>
+ </body>
+ </html>
