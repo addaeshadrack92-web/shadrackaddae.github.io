@@ -8,6 +8,37 @@
 
   <a href="index.html">Go back Home</a>
 
+<body>
+
+<head>
+   <h1>My Website</h1>
+   <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a> 
+      <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="card">
+       <h2>Welcom to my Website</h2>
+       <p>I build simple and clean website.</p>
+       <button>contact me</button>
+    <section>
+
+    <section class="card">
+         <h3>What I Do</h3>
+         <p>I design modern, responsive websites for individuals and businesses.</p>
+      </section>
+ </main>
+
+ <footer>
+      <p>@ 2025 My Website</p>
+ </footer>
+
+</body>  
+
+
 <h2>contact Me</h2>
 
 <form action="https://formspree.io/f/{form_id}" method="post">
@@ -21,12 +52,74 @@ placeholder="addaeshadrack92@gmail.com"
 required><br><br>
 
 
+input, textarea {
+     width: 100%;
+     padding: 12px;
+     margin-bottom: 15px;
+     border: 1px solid #ccc;
+     border-radius: 6px;
+     font-size: 15px;
+}
 
-     <textarea name="message"
-placeholder="you are always welcome to my platform" rows="5"
-required></textarea><br><br>
+textarea {
+     resize: none;
+     height: 120px;
+}
 
-   <button type="submit">submit</button>
+@media (max-width: 600px) {
+    header h1 {
+         font-size: 28px;
+    }
+}
+
+   <button type="submit">send message</button>
 </form>
+</section>
+
+</div>
+
+  header {
+      text-align: center;
+      margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom 10px;
+
+}
+
+  .subtitle {
+       color: #777;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px
+ rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px; 
+}
+
+button:hover {
+     background-color: #004fcc;
+}
+
 </body>
 </addaeshadrack92@gmail.com>
+
